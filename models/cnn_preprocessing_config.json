@@ -1,0 +1,15 @@
+{
+  "sampling_rate_hz": 12000,
+  "window_size": 2048,
+  "step_size": 2048,
+  "overlapping": false,
+  "normalization_method": "z-score",
+  "training_mean": 0.006373126525431871,
+  "training_std": 0.33898553252220154,
+  "split_ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "anti_aliasing_filter": "8th-order Chebyshev type I (decimate factor 4 for 48kHz normal baseline)"
+}

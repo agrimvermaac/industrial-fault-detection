@@ -1,0 +1,9 @@
+[
+  "mean",
+  "std",
+  "rms",
+  "peak",
+  "peak_to_peak",
+  "kurtosis",
+  "crest_factor"
+]

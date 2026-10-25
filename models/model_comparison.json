@@ -1,0 +1,59 @@
+{
+  "overall_comparison": [
+    {
+      "Model": "Random Forest",
+      "Input Type": "7 Engineered Statistical Features",
+      "Parameters / Size": "50 Trees (~57 KB)",
+      "Train Accuracy": 1.0,
+      "Val Accuracy": 1.0,
+      "Test Accuracy": 1.0,
+      "Macro Precision": 1.0,
+      "Macro Recall": 1.0,
+      "Macro F1": 1.0,
+      "Inference Mechanism": "Thresholding on statistical energy/moments"
+    },
+    {
+      "Model": "1D-CNN",
+      "Input Type": "Raw 1D Vibration Window (2048 samples)",
+      "Parameters / Size": "68,580 Weights (~280 KB)",
+      "Train Accuracy": 1.0,
+      "Val Accuracy": 1.0,
+      "Test Accuracy": 1.0,
+      "Macro Precision": 1.0,
+      "Macro Recall": 1.0,
+      "Macro F1": 1.0,
+      "Inference Mechanism": "Hierarchical learned 1D convolutional feature maps"
+    }
+  ],
+  "per_class_comparison": [
+    {
+      "Class": "Normal",
+      "Random Forest F1": 1.0,
+      "1D-CNN F1": 1.0,
+      "Test Support": 8.0
+    },
+    {
+      "Class": "Inner Race Fault",
+      "Random Forest F1": 1.0,
+      "1D-CNN F1": 1.0,
+      "Test Support": 8.0
+    },
+    {
+      "Class": "Ball Fault",
+      "Random Forest F1": 1.0,
+      "1D-CNN F1": 1.0,
+      "Test Support": 8.0
+    },
+    {
+      "Class": "Outer Race Fault",
+      "Random Forest F1": 1.0,
+      "1D-CNN F1": 1.0,
+      "Test Support": 8.0
+    }
+  ],
+  "sample_size": {
+    "train": 164,
+    "val": 32,
+    "test": 32
+  }
+}

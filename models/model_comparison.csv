@@ -1,0 +1,3 @@
+Model,Input Type,Parameters / Size,Train Accuracy,Val Accuracy,Test Accuracy,Macro Precision,Macro Recall,Macro F1,Inference Mechanism
+Random Forest,7 Engineered Statistical Features,50 Trees (~57 KB),1.0,1.0,1.0,1.0,1.0,1.0,Thresholding on statistical energy/moments
+1D-CNN,Raw 1D Vibration Window (2048 samples),"68,580 Weights (~280 KB)",1.0,1.0,1.0,1.0,1.0,1.0,Hierarchical learned 1D convolutional feature maps

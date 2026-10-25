@@ -1,0 +1,2 @@
+# Serialized model checkpoints (.pt, .joblib, .pkl) will be saved here.
+# Files in this directory are ignored by git.
